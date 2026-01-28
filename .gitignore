@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node
+node_modules/
+
+# Expo
+.expo/
+dist/
+
+# IDE
+.idea/
+
+# Environment
+.env

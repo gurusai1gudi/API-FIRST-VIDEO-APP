@@ -1,0 +1,27 @@
+POST http://127.0.0.1:5000/auth/signup
+Content-Type: application/json
+
+{
+  "name": "Gurusai",
+  "email": "guru@test.com",
+  "password": "123456"
+}
+
+###
+POST http://127.0.0.1:5000/auth/login
+Content-Type: application/json
+
+{
+  "email": "guru@test.com",
+  "password": "123456"
+}
+###
+GET http://127.0.0.1:5000/auth/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2OTU2ODMyMSwianRpIjoiNWQwYmMxN2UtOTk3ZC00YmVmLTk5M2MtODc5YWZhNjFlZWZkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjY5Nzk3ODE1MDE2YmI2N2E3MDdiM2RmNCIsIm5iZiI6MTc2OTU2ODMyMSwiY3NyZiI6IjJiMzBlNWFiLTQ0NTgtNDgxNi05Y2EyLThkNzgyMGNhNGJjOSIsImV4cCI6MTc2OTU3MTkyMX0.Nyrj_fu28_kjfupz5lmU2thCj2w8TGfpp1sf8-LLdEo
+###
+GET http://127.0.0.1:5000/dashboard
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2OTU2ODMyMSwianRpIjoiNWQwYmMxN2UtOTk3ZC00YmVmLTk5M2MtODc5YWZhNjFlZWZkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjY5Nzk3ODE1MDE2YmI2N2E3MDdiM2RmNCIsIm5iZiI6MTc2OTU2ODMyMSwiY3NyZiI6IjJiMzBlNWFiLTQ0NTgtNDgxNi05Y2EyLThkNzgyMGNhNGJjOSIsImV4cCI6MTc2OTU3MTkyMX0.Nyrj_fu28_kjfupz5lmU2thCj2w8TGfpp1sf8-LLdEo
+###
+
+GET http://127.0.0.1:5000/video/69797b7131498932677e8f1e/stream
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2OTU2ODMyMSwianRpIjoiNWQwYmMxN2UtOTk3ZC00YmVmLTk5M2MtODc5YWZhNjFlZWZkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjY5Nzk3ODE1MDE2YmI2N2E3MDdiM2RmNCIsIm5iZiI6MTc2OTU2ODMyMSwiY3NyZiI6IjJiMzBlNWFiLTQ0NTgtNDgxNi05Y2EyLThkNzgyMGNhNGJjOSIsImV4cCI6MTc2OTU3MTkyMX0.Nyrj_fu28_kjfupz5lmU2thCj2w8TGfpp1sf8-LLdEo
